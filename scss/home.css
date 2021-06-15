@@ -1,0 +1,176 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0%;
+  margin: 0%;
+  font-size: 18px;
+  width: 100%;
+  background-image: url("../img/Road-Trip-Safety-Tips-with-car-panic-button.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+html #blur,
+body #blur {
+  margin-top: 10%;
+  height: 70%;
+  width: 38%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 2%;
+  background-image: url("../img/Rectangle 25.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+html #home-side,
+body #home-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  width: 90%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+html #home-text,
+body #home-text {
+  height: 70%;
+  margin-top: -30%;
+  width: 70%;
+  margin-left: 20%;
+  font-family: "PMingLiU-ExtB";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: bold;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: white;
+  font-size: 1.5em;
+}
+
+html #home-text .parg,
+body #home-text .parg {
+  height: 30%;
+  width: 100%;
+}
+
+html #home-text :last-child,
+body #home-text :last-child {
+  font-family: "Perpetua";
+}
+
+html #home-text :last-child p,
+body #home-text :last-child p {
+  text-align: end;
+  color: #5C8249;
+}
+
+html #home-text :first-child,
+body #home-text :first-child {
+  font-family: "Perpetua";
+}
+
+html #home-text :first-child p,
+body #home-text :first-child p {
+  color: #863911;
+}
+
+html #home-text :nth-child(2),
+body #home-text :nth-child(2) {
+  font-size: 3em;
+  text-align: center;
+}
+
+html #home-icons,
+body #home-icons {
+  height: 70%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+html .row,
+body .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 15%;
+  width: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+html img,
+body img {
+  height: 80%;
+  width: 30%;
+}
+
+html .home-icons,
+body .home-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30%;
+  height: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #863911;
+  font-family: "Perpetua";
+}
+
+html button,
+body button {
+  width: 30%;
+  border-radius: 100px;
+  border: 2px solid #863911;
+  background-color: #5C8249;
+  font-size: 1.2em;
+  font-weight: bold;
+  font-family: "Perpetua";
+  color: white;
+}
+/*# sourceMappingURL=home.css.map */

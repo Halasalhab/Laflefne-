@@ -1,0 +1,96 @@
+@import "variables.scss";
+html,
+body {
+    @include page;
+    width: 100%;
+    background-image: url('../img/Road-Trip-Safety-Tips-with-car-panic-button.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    #blur {
+        margin-top: 10%;
+        height: 70%;
+        width: 38%;
+        flex-direction: column;
+        margin-right: 2%;
+        background-image: url('../img/Rectangle 25.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    #home-side {
+        display: flex;
+        height: 100%;
+        width: 90%;
+        flex-direction: column;
+    }
+    #home-text {
+        height: 70%;
+        margin-top: -30%;
+        width: 70%;
+        margin-left: 20%;
+        font-family: "PMingLiU-ExtB";
+        display: flex;
+        font-weight: bold;
+        flex-direction: column;
+        justify-content: space-between;
+        color: white;
+        font-size: 1.5em;
+        .parg {
+            height: 30%;
+            width: 100%;
+        }
+    }
+    #home-text :last-child {
+        p {
+            text-align: end;
+            color: $green-text;
+        }
+        font-family: "Perpetua";
+    }
+    #home-text :first-child {
+        p {
+            color: $red-text;
+        }
+        font-family: "Perpetua";
+    }
+    #home-text :nth-child(2) {
+        font-size: 3em;
+        text-align: center;
+    }
+    #home-icons {
+        height: 70%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .row {
+        display: flex;
+        height: 15%;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    img {
+        height: 80%;
+        width: 30%;
+    }
+    .home-icons {
+        display: flex;
+        width: 30%;
+        height: 100%;
+        justify-content: space-around;
+        flex-direction: row;
+        align-items: center;
+        font-size: 1.5em;
+        font-weight: bold;
+        color: $red-text;
+        font-family: "Perpetua";
+    }
+    button {
+        @include btn;
+    }
+}

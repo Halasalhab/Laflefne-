@@ -1,0 +1,146 @@
+@import "variables.scss";
+html,
+body {
+    @include page;
+    @include f-column;
+    #nav {
+        @include nav;
+    }
+    #nav-right {
+        @include nav-right;
+    }
+    #nav-left {
+        @include nav-lift;
+    }
+    section {
+        @include sections;
+        #cards {
+            height: 100%;
+            width: 100%;
+            @include f-column;
+        }
+        .row {
+            display: flex;
+            justify-content: space-evenly;
+            height: 40%;
+            width: 100%;
+        }
+        .card {
+            height: 100%;
+            width: 20%;
+            // background-color: fuchsia;
+            @include f-column;
+            justify-content: space-between;
+        }
+    }
+    .upper-part {
+        height: 70%;
+        width: 100%;
+        img {
+            height: 100%;
+            width: 100%;
+        }
+    }
+    .down-part {
+        height: 30%;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #A6B59E;
+        border: 1px solid #863911;
+    }
+    .fav-icon {
+        width: 20%;
+        height: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1%;
+        img {
+            height: 50%;
+            width: 50%;
+            object-fit: contain;
+        }
+    }
+    .down-part-text {
+        height: 30%;
+        width: 100%;
+        font-size: "Times New Roman";
+        font-size: 1.5rem;
+        @include f-column;
+    }
+    .name {
+        height: 50%;
+        width: 100%;
+    }
+    .date-cost {
+        height: 30%;
+        width: 100%;
+        background-color: gray;
+        font-family: "Perpetua";
+        display: none;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 0.5em;
+    }
+    #day {
+        color: #174058;
+        font-size: 1rem;
+    }
+    #cost {
+        color: #BBCC18;
+        font-size: 0.6rem;
+    }
+    .dropbtn {
+        @include dropdwon;
+    }
+    #line {
+        border-bottom: 2px solid $red-text;
+    }
+    .loginPopup {
+        position: relative;
+        text-align: center;
+        width: 100%;
+        font-family: "Perpetua";
+        color: $red-text;
+    }
+    .formPopup {
+        display: none;
+        position: fixed;
+        left: 45%;
+        top: 30%;
+        transform: translate(-50%, 5%);
+        border: 3px solid #999999;
+        z-index: 9;
+    }
+    .formContainer {
+        max-width: 400px;
+        padding: 10%;
+        background-color: #879daf;
+    }
+    .formContainer input[type=text],
+    .formContainer input[type=password] {
+        width: 90%;
+        padding: 5%;
+        margin: 5px 0 20px 0;
+        border: none;
+        background: #eee;
+    }
+    .formContainer .btn {
+        padding: 12px 20px;
+        border: none;
+        background-color: #8ebf42;
+        color: #fff;
+        cursor: pointer;
+        width: 100%;
+        margin-bottom: 15px;
+        opacity: 0.8;
+    }
+    .formContainer .cancel {
+        background-color: #cc0000;
+    }
+    .formContainer .btn:hover,
+    .openButton:hover {
+        opacity: 1;
+    }
+}
